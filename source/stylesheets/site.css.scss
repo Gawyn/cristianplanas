@@ -8,8 +8,11 @@ $link-visited-color: false;
 
 $font-color:  #2a2a2a;
 $font-family: sans-serif;
-$base-font-size:   12px;
+$base-font-size:   14px;
 $base-line-height: 18px;
+
+$border-color: #bbbbbb;
+$info-color: #dddddd;
 
 $total-cols: 12;
 $col-width: 4em;
@@ -21,6 +24,7 @@ $side-gutter-width: $gutter-width;
 body {
   font-family: $font-family;
   color: $font-color; 
+  text-align: center;
 }
 
 a {
@@ -29,4 +33,28 @@ a {
 
 #main {
   padding: 50px;
+  width: 960px;
+  margin: 0 auto 0 auto;
+  height: 100%;
+}
+
+#sidebar{
+  float: right;
+  width: 250px;
+}
+
+#myinfo{
+  width: 250px;
+  height: 300px;
+  border: solid 3px;
+  border-color: $border-color;
+  background-color: $info-color;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: $base-font-size;
+  text-align: left;
+}
+#myinfo #image{
+  float: left;
+  margin-right: 20px;
 }
