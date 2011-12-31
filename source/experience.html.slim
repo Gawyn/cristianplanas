@@ -1,0 +1,48 @@
+-content_for :head do
+  title CristianPlanas.com - My Experience
+#dialogue3
+  #text
+    #default
+      | Put the cursor on some of my past experiences I'm trying to remember to know more about them.
+    #imesmes_text.hidden
+      | I started at 
+      == link_to 'i++', 'http://imesmes.com'
+      |  on April 2011, and I'm still working for them.
+      br
+      | It's a start-up entirely dedicated to the development of projects on Ruby on Rails. In 
+      == link_to 'i++', 'http://imesmes.com'
+      |  I discovered that...
+      #welove
+        | I love 
+      #rails_image
+        == image_tag 'rails.png'
+    #mibweb_text.hidden
+      | I worked in 
+      == link_to 'mibweb', 'http://mibweb.es'
+      |  for a few months during the spring-summer of 2009. There I obtained some 
+      b experience as PHP developer
+      | , but also helping with the CSS layouts.
+    #upc_text.hidden
+      | I'm a 
+      b Computer Engineer 
+      | by the 
+      == link_to 'Universitat Politècnica de Catalunya', 'http://upc.es'
+      | . It's one of the main tech universities in Europe.
+    #metropolia_text.hidden
+      | When I was near to finish my degree, I wanted to add an 
+      b international background 
+      to my education, so I did my final thesis at 
+      == link_to 'Helsinki Metropolia University', 'http://metropolia.fi/en'
+      | .
+      br
+      | In Finland, I learnt how to manage myself out of my own country. Actually, I had great fun!
+#thought
+  #text
+    #imesmes.item
+      ==image_tag('imesmes.png', :id => 'imesmes_image')
+    #upc.item
+      ==image_tag('upc.png', :id => 'upc_image')
+    #mibweb.item
+      ==image_tag('mibweb.png', :id => 'mibweb_image')
+    #metropolia.item
+      ==image_tag('metropolia.png', :id => 'metropolia_image')

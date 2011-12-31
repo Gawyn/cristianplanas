@@ -39,6 +39,7 @@ h1{
 
 b{
   font-weight: bold;
+  font-size: 140%;
 }
 
 #main {
@@ -72,9 +73,32 @@ b{
   margin: 0 auto 0 auto;
   width: 400px;
   height: 400px;
-  padding-top: 60px;
+}
+#dialogue1 #text{
+  width: 400px;
+  padding-top: 50px;
+}
+#dialogue2 #text{
+  width: 400px;
+  padding-top: 50px;
+}
+#dialogue3 #text{
+  padding-top: 85px;
+  width: 350px;
+  font-size: 20px;
+}
+#thought #text{
+  width: 350px;
+  padding-top: 50px;
 }
 #dialogue1{
+  background-image: url('../images/dialogue1.png');
+  width: 450px;
+  height: 400px;
+  float: left;
+  text-align: center;
+}
+#dialogue3{
   background-image: url('../images/dialogue1.png');
   width: 450px;
   height: 400px;
@@ -88,6 +112,13 @@ b{
   float: right;
   text-align: center;
 }
+#thought{
+  background-image: url('../images/thought.png');
+  width: 450px;
+  height: 400px;
+  float: right;
+  text-align: center;
+}
 #contact_info{
   margin-top: 20px;
 }
@@ -95,6 +126,7 @@ b{
   margin: 0 5px 0 5px;
 }
 .item{
+  text-align: center;
   display: inline-block;
 }
 #projects.item{
@@ -113,6 +145,45 @@ b{
   width: 85px;
   height: 45px;
 }
+#upc.item{
+  width: 85px;
+  height: 85px;
+  margin-top: 5px;
+  float: right;
+  margin-right: 20px;
+}
+#imesmes.item{
+  float: left;
+  margin-left: 30px;
+  width: 160px;
+  height: 65px;
+}
+#metropolia.item{
+  float: right;
+  margin-right: 65px;
+  width: 77px;
+  height: 80px;
+  margin-top: 20px;
+}
+#mibweb.item{
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 140px;
+  height: 35px;
+}
 .hidden{
   display: none;
+}
+#welove{
+  font-size: 30px;
+  margin-top: 40px;
+  margin-left: 90px;
+  margin-right: 15px;
+  font-weight: bold;
+  float:left;
+}
+#rails_image{
+  float: left;
+  margin-top: 10px;
 }
