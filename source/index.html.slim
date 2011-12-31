@@ -1,3 +1,37 @@
 -content_for :head do
   title CristianPlanas.com
-h1 Hola!
+#dialogue1
+  #text
+    h1 Welcome to my personal page!
+    | I'm 
+    b Cristian Planas
+    |, a 
+    b Ruby developer.
+    br
+    | Here you will be able to discover my
+    #projects.item
+      == link_to image_tag('projects.png', :id => 'projects_image'), 'projects.html'
+      == link_to image_tag('projects2.png', :id => 'projects_image2', :class => 'hidden'), 'projects.html'
+    | , read about my
+    #skills.item
+      == link_to image_tag('skills.png', :id => 'skills_image'), 'skills.html'
+      == link_to image_tag('skills2.png', :id => 'skills_image2', :class => 'hidden'), 'skills.html'
+    | or know about my
+    #experience.item
+      == link_to image_tag('experience.png', :id => 'experience_image'), 'experience.html'
+      == link_to image_tag('experience2.png', :id => 'experience_image2', :class => 'hidden'), 'experience.html'
+    br
+    |I also publish a
+    #blog.item
+      == link_to image_tag('blog.png', :id => 'blog_image'), 'blog'
+      == link_to image_tag('blog2.png', :id => 'blog_image2', :class => 'hidden'), 'blog'
+    | you may like to read!
+#dialogue2
+  #text
+    h1 You can contact me in...
+    #contact_info
+      == link_to image_tag('twitter.png'), 'www.twitter.com/gawyn1986'
+      == link_to image_tag('facebook.png'), 'www.facebook.com/gawyn1986'
+      == link_to image_tag('linkedin.png'), 'www.linkedin.com'
+    br
+    | or send me a mail to me@cristianplanas.com

@@ -31,6 +31,16 @@ a {
   @include link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color);
 }
 
+h1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+b{
+  font-weight: bold;
+}
+
 #main {
   padding: 50px;
   width: 960px;
@@ -57,4 +67,52 @@ a {
 #myinfo #image{
   float: left;
   margin-right: 20px;
+}
+#text{
+  margin: 0 auto 0 auto;
+  width: 400px;
+  height: 400px;
+  padding-top: 60px;
+}
+#dialogue1{
+  background-image: url('../images/dialogue1.png');
+  width: 450px;
+  height: 400px;
+  float: left;
+  text-align: center;
+}
+#dialogue2{
+  background-image: url('../images/dialogue2.png');
+  width: 450px;
+  height: 400px;
+  float: right;
+  text-align: center;
+}
+#contact_info{
+  margin-top: 20px;
+}
+#contact_info img{
+  margin: 0 5px 0 5px;
+}
+.item{
+  display: inline-block;
+}
+#projects.item{
+  width: 85px;
+  height: 45px;
+}
+#skills.item{
+  width: 85px;
+  height: 45px;
+}
+#experience.item{
+  width: 85px;
+  height: 45px;
+}
+#blog.item{
+  width: 85px;
+  height: 45px;
+}
+.hidden{
+  display: none;
 }
