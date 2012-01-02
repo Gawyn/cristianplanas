@@ -67,3 +67,31 @@ $ ->
     $('#upc_text').hide()
     $('#metropolia_text').show()
 
+  $('#ruby.element').click ->
+    $('.description').hide()
+    $('#ruby.description').show()
+
+  $('#rails.element').click ->
+    $('.description').hide()
+    $('#rails.description').show()
+
+  $('#languages.element').click ->
+    $('.description').hide()
+    $('#languages.description').show()
+
+  $('#php.element').click ->
+    $('.description').hide()
+    $('#php.description').show()
+
+  $('#jquery.element').click ->
+    $('.description').hide()
+    $('#jquery.description').show()
+
+  $('#rubygems.element').click ->
+    $('.description').hide()
+    $('#rubygems.description').show()
+
+  $('#others.element').click ->
+    $('.description').hide()
+    $('#others.description').show()
+

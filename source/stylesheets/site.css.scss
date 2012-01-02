@@ -187,3 +187,69 @@ b{
   float: left;
   margin-top: 10px;
 }
+#blackboard{
+  background-image: url('../images/blackboard.png');
+  width: 960px;
+  height: 600px;
+}
+#blackboard #elements{
+  width: 480px;
+  height: 600px;
+  padding: 40px 40px 40px 40px;
+  float: left;
+}
+#blackboard .element{
+  position: relative;
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+}
+#ruby.element{
+  width: 120px;
+  height: 120px;
+  top: 10px;
+  left: 50px;
+}
+#php.element{
+  float:right;
+  top: 120px;
+  height: 53px;
+  width: 100px;
+}
+#jquery.element{
+  float: right;
+  width: 264px;
+  height: 60px;
+  top: 90px;
+}
+#rubygems.element{
+  top: 160px;
+  right: 0px;
+  width: 156px;
+  height: 120px;
+}
+#rails.element{
+  width: 86px;
+  height: 110px;
+  top: 160px;
+  left: -90px;
+}
+#languages.element{
+  float: left;
+  top: 120px;
+  left: 70px;
+  width: 120px;
+  height: 120px;
+}
+#others.element{
+  float: right;
+  top: 220px;
+  right: 20px;
+  width: 230px;
+  height: 60px;
+}
+#blackboard_description{
+  float: left;
+  width: 360px;
+  margin-top: 40px;
+}
