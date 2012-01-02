@@ -1,3 +1,5 @@
+page '/index.html', :layout => 'index_layout'
+
 ### 
 # Compass
 ###

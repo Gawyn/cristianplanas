@@ -6,5 +6,17 @@ html
     ==stylesheet_link_tag 'site.css'
     ==yield_content :head
   body 
+    #menubar
+      ul
+        li
+          ==link_to image_tag('home_icon.png'),'/'
+        li
+          ==link_to image_tag('skills_icon.png'),'skills.html'
+        li
+          ==link_to image_tag('experience_icon.png'),'experience.html'
+        li
+          ==link_to image_tag('projects_icon.png'),'projects.html'
+        li
+          ==link_to image_tag('blog_icon.png'),'blog.html'
     div id='main' role='main'
       ==yield

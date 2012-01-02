@@ -43,9 +43,8 @@ b{
 }
 
 #main {
-  padding: 50px;
   width: 960px;
-  margin: 0 auto 0 auto;
+  margin: 10px auto 0 auto;
   height: 100%;
 }
 
@@ -194,9 +193,10 @@ b{
 }
 #blackboard #elements{
   width: 480px;
-  height: 600px;
-  padding: 40px 40px 40px 40px;
+  height: 560px;
+  padding: 40px 40px 0px 40px;
   float: left;
+  margin-bottom: 10px;
 }
 #blackboard .element{
   position: relative;
@@ -252,4 +252,24 @@ b{
   float: left;
   width: 360px;
   margin-top: 40px;
+}
+#menubar{
+  margin: 10px auto 0 auto;
+  width: 600px;
+  height: 35px;
+  border-radius: 10px;
+  background-image: url('../images/menubar.png');
+}
+#menubar ul{
+  margin: 0 auto 0 auto;
+  width: 505px;
+  height: 35px;
+  border-left: 1px solid black;
+}
+#menubar ul li{
+  display: inline-block;
+  height: 35px;
+  width: 100px;
+  text-align: center;
+  border-right: 1px solid black;
 }
