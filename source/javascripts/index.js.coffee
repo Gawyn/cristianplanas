@@ -95,3 +95,22 @@ $ ->
     $('.description').hide()
     $('#others.description').show()
 
+  $('#remotecontrol .button').click ->
+    $('.project').hide()
+    $('.project_description').hide()
+
+  $('#tweetmovies.button').click ->
+    $('#tweetmovies.project').show()
+    $('#tweetmovies.project_description').show()
+
+  $('#fundidoanegro.button').click ->
+    $('#fundidoanegro.project').show()
+    $('#fundidoanegro.project_description').show()
+
+  $('#cineforum.button').click ->
+    $('#cineforum.project').show()
+    $('#cineforum.project_description').show()
+
+  $('#others.button').click ->
+    $('#others.project').show()
+

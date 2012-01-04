@@ -1,0 +1,85 @@
+-content_for :head do
+  title CristianPlanas.com - My Projects
+#projects
+  #television
+    #default.project
+      #text
+        span.default_tv
+          | Decide which project
+          |  you want to know more about
+          |  using the remote control.
+    #fundidoanegro.project.hidden
+      == image_tag 'project_fundidoanegro.png'
+    #cineforum.project.hidden
+      == image_tag 'project_cineforum.png'
+    #tweetmovies.project.hidden
+      == image_tag 'project_tweetmovies.png'
+    #others.project.hidden
+      #text
+        | As a professional, I collaborated in other projects. For example, I was the man in charge of the maintenance of the bets website 
+        == link_to 'Eaposta', 'http://www.eaposta.es'
+        | . I added new features (as xml support or an admin dashboard) and coded lots of cucumber and rspec tests.
+        br
+        br
+        | During my stay in MibWeb, I worked in the webpage of 
+        == link_to 'Wortmann Architects', 'http://www.wortmann-architects.com/'
+        | .
+        br
+        br
+        | I coded some features in the 
+        == link_to 'Wings for Media', 'http://www.wingsformedia.com/'
+        |  project.
+  #remotecontrol
+    #tweetmovies.button
+      == image_tag 'button_tweetmovies.png'
+    #cineforum.button
+      == image_tag 'button_cineforum.png'
+    #fundidoanegro.button
+      == image_tag 'button_fundidoanegro.png'
+    #others.button
+      == image_tag 'button_others.png'
+
+#tweetmovies.project_description.hidden
+  #icons
+    == link_to image_tag('tweetmovies.png'),'http://tweetmovies.net'
+    == image_tag 'nogithub.png'
+  #text
+    b TweetMovies.net - Integrating the movie world in the social networks
+    br
+    br
+    | With TweetMovies.net I had the oportunity to create a real 2.0 application.
+    |  In it, the user can read, rate and create comments about any movies; his tweets will
+    |  appear also in his social networks accounts. The network also counted with friends and some other social features.
+    br
+    br
+    | This was a personal project, so I designed and coded it single-handedly.
+#cineforum.project_description.hidden
+  #icons
+    == link_to image_tag('cineforum.png'), 'http://cineforum.cat'
+    == link_to image_tag('github.png'), 'https://github.com/Gawyn/cineforum'
+  #text
+    b Cineforum.CAT - Development of a website for a film club
+    br
+    br
+    | I started Cineforum.CAT with the idea to use it to organize a small film club I created with my friends.
+    |  At the beginning I didn't have very clear the scope of the project, so I used the full possibilities of using RoR.
+    |  If I could do it again, I would make it lighter, using a static page generator, like Jekyll or Middleman.
+    br
+    br
+    | This was a personal project, so I designed and coded it single-handedly.
+#fundidoanegro.project_description.hidden
+  #icons
+    == link_to image_tag('fundidoanegro.png'), 'http://fundidoanegro.net'
+    == link_to image_tag('github.png'), 'https://github.com/Gawyn/fundidoanegro'
+  #text
+    b Fundido a Negro - An application for an online magazine
+    br
+    br
+    | As a cinema buff, I wanted to create my own magazine to have a platform where me and my friend could share our views.
+    |  Fundido a Negro was (and still is) quite a complete system for an online magazine, with three diferent levels of users, and
+    |  an appealing look.
+    br
+    | The network also counted with friends and some other social features.
+    br
+    br
+    | This was a personal project, so I designed and coded it single-handedly.

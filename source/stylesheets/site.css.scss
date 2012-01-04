@@ -273,3 +273,68 @@ b{
   text-align: center;
   border-right: 1px solid black;
 }
+#projects{
+  height: 512px;
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+#television{
+  float: left;
+  width: 740px;
+  height: 512px;
+  background-image: url('../images/television.png');
+}
+#remotecontrol{
+  float: right;
+  width: 176px;
+  height: 400px;
+  background-image: url('../images/remotecontrol.png');
+  margin-top: 35px;
+}
+.project{
+  width: 666px;
+  height: 374px;
+  margin-top: 36px;
+  margin-left: 36px;
+  text-align: center;
+  background-image: url('../images/project_default.png');
+  color: #fff;
+}
+#default.project #text{
+  padding-top: 120px;
+}
+#others.project #text{
+  padding-top: 60px;
+  font-size: 22px;
+  width: 530px;
+}
+span.default_tv{
+  font-weight: bold;
+  font-size: 30px;
+}
+.button{
+  margin: 20px auto 0 auto;
+  width: 170px;
+  height: 70px;
+  border-radius: 20px;
+}
+.project_description{
+  width: 900px;
+  height: 150px;
+  margin: 15px auto 15px auto;
+  border-radius: 20px;
+  background-color: #222;
+  color: #ddd;
+  padding: 15px;
+}
+.project_description #icons{
+  width: 160px;
+  height: 150px;
+  float: left;
+}
+.project_description #text{
+  width: 725px;
+  height: 150px;
+  float: right;
+  padding-left: 15px;
+}
