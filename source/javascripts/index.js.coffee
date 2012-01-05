@@ -30,15 +30,6 @@ $ ->
     $('#projects_image').show()
     $('#projects_image2').hide()
 
-  $('#thought .item').hover (->
-    $(this).find('img').animate
-      width: '120%'
-      height: '120%'
-  ), ->
-    $(this).find('img').animate
-      width: '100%'
-      height: '100%'
-
   $('#thought #imesmes').hover ->
     $('#upc_text').hide()
     $('#default').hide()

@@ -3,13 +3,14 @@
 #dialogue3
   #text
     #default
-      | Put the cursor on some of my past experiences I'm trying to remember to know more about them.
+      b
+        | Put the cursor on some of my past experiences to know more about them.
     #imesmes_text.hidden
       | I started at 
       == link_to 'i++', 'http://imesmes.com'
       |  on April 2011, and I'm still working for them.
       br
-      | It's a start-up entirely dedicated to the development of projects on Ruby on Rails. In 
+      | It's a start-up entirely dedicated to the development of Ruby on Rails projects. In 
       == link_to 'i++', 'http://imesmes.com'
       |  I discovered that...
       #welove
@@ -27,7 +28,9 @@
       b Computer Engineer 
       | by the 
       == link_to 'Universitat Politècnica de Catalunya', 'http://upc.es'
-      | . It's one of the main tech universities in Europe.
+      | .
+      br
+      |It's one of the main tech universities in Europe.
     #metropolia_text.hidden
       | When I was near to finish my degree, I wanted to add an 
       b international background 
@@ -40,9 +43,9 @@
   #text
     #imesmes.item
       ==image_tag('imesmes.png', :id => 'imesmes_image')
-    #upc.item
-      ==image_tag('upc.png', :id => 'upc_image')
     #mibweb.item
       ==image_tag('mibweb.png', :id => 'mibweb_image')
     #metropolia.item
       ==image_tag('metropolia.png', :id => 'metropolia_image')
+    #upc.item
+      ==image_tag('upc.png', :id => 'upc_image')

@@ -82,12 +82,12 @@ b{
   padding-top: 50px;
 }
 #dialogue3 #text{
-  padding-top: 85px;
-  width: 350px;
+  padding-top: 40px;
+  width: 330px;
   font-size: 20px;
 }
 #thought #text{
-  width: 350px;
+  width: 500px;
   padding-top: 50px;
 }
 #dialogue1{
@@ -98,9 +98,9 @@ b{
   text-align: center;
 }
 #dialogue3{
-  background-image: url('../images/dialogue1.png');
-  width: 450px;
-  height: 400px;
+  background-image: url('../images/dialogue3.png');
+  width: 410px;
+  height: 350px;
   float: left;
   text-align: center;
 }
@@ -112,9 +112,9 @@ b{
   text-align: center;
 }
 #thought{
-  background-image: url('../images/thought.png');
-  width: 450px;
-  height: 400px;
+  background-image: url('../images/clock.png');
+  width: 520px;
+  height: 520px;
   float: right;
   text-align: center;
 }
@@ -144,32 +144,36 @@ b{
   width: 85px;
   height: 45px;
 }
+#thought .item{
+  position: relative;
+}
 #upc.item{
   width: 85px;
   height: 85px;
-  margin-top: 5px;
   float: right;
-  margin-right: 20px;
+  right: 133px;
+  top: 320px;
 }
 #imesmes.item{
   float: left;
-  margin-left: 30px;
   width: 160px;
   height: 65px;
+  left: 180px;
+  top: 30px;
 }
 #metropolia.item{
   float: right;
-  margin-right: 65px;
   width: 77px;
   height: 80px;
-  margin-top: 20px;
+  right: 50px;
+  top: 185px;
 }
 #mibweb.item{
   float: left;
-  margin-left: 50px;
-  margin-top: 30px;
   width: 140px;
   height: 35px;
+  top: 192px;
+  left: -100px;
 }
 .hidden{
   display: none;
