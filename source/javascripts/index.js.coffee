@@ -1,4 +1,5 @@
 #= require 'jquery-1.7.1.js'
+#= require 'clock.js'
 
 $ ->
 
@@ -30,33 +31,43 @@ $ ->
     $('#projects_image').show()
     $('#projects_image2').hide()
 
-  $('#thought #imesmes').hover ->
+  $('#clock #imesmes').hover ->
     $('#upc_text').hide()
     $('#default').hide()
     $('#metropolia_text').hide()
     $('#mibweb_text').hide()
     $('#imesmes_text').show()
 
-  $('#thought #mibweb').hover ->
+  $('#clock #mibweb').hover ->
     $('#upc_text').hide()
     $('#metropolia_text').hide()
     $('#default').hide()
     $('#imesmes_text').hide()
     $('#mibweb_text').show()
 
-  $('#thought #upc').hover ->
+  $('#clock #upc').hover ->
     $('#mibweb_text').hide()
     $('#metropolia_text').hide()
     $('#imesmes_text').hide()
     $('#default').hide()
     $('#upc_text').show()
 
-  $('#thought #metropolia').hover ->
+  $('#clock #metropolia').hover ->
     $('#default').hide()
     $('#mibweb_text').hide()
     $('#imesmes_text').hide()
     $('#upc_text').hide()
     $('#metropolia_text').show()
+
+  $('.not_selected').click ->
+    $('.selected').find('img').animate
+      width: '100%'
+      height: '100%'
+    $('.selected').removeClass('selected').addClass('not_selected')
+    $(this).removeClass('not_selected').addClass('selected')
+    $(this).find('img').animate
+      width: '115%'
+      height: '115%'
 
   $('#ruby.element').click ->
     $('.description').hide()

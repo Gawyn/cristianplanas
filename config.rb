@@ -1,4 +1,5 @@
 page '/index.html', :layout => 'index_layout'
+activate :relative_assets
 
 ### 
 # Compass

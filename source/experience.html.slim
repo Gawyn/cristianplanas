@@ -13,10 +13,11 @@
       | It's a start-up entirely dedicated to the development of Ruby on Rails projects. In 
       == link_to 'i++', 'http://imesmes.com'
       |  I discovered that...
-      #welove
-        | I love 
-      #rails_image
-        == image_tag 'rails.png'
+      #welove_container
+        #welove
+          | I love 
+        #rails_image
+          == image_tag 'rails.png'
     #mibweb_text.hidden
       | I worked in 
       == link_to 'mibweb', 'http://mibweb.es'
@@ -39,7 +40,10 @@
       | .
       br
       | In Finland, I learnt how to manage myself out of my own country. Actually, I had great fun!
-#thought
+#clock
+  #sec
+  #hour
+  #min
   #text
     #imesmes.item
       ==image_tag('imesmes.png', :id => 'imesmes_image')
@@ -49,3 +53,4 @@
       ==image_tag('metropolia.png', :id => 'metropolia_image')
     #upc.item
       ==image_tag('upc.png', :id => 'upc_image')
+
