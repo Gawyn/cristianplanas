@@ -371,7 +371,7 @@ span.default_tv{
   position: relative;
   width: 600px;
   height: 600px;
-  margin: 20px auto 0 auto;
+  margin: 80px auto 0 auto;
   background-image: url('../images/clock.png');
   list-style: none;
 }
@@ -393,4 +393,8 @@ span.default_tv{
 #hour {
   background: url('../images/hourhand.png');
   z-index: 1;
+}
+#me_experience{
+  float:right;
+  margin-top: -400px;
 }
